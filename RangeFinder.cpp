@@ -1,10 +1,9 @@
 #include "RangeFinder.h"
 
-void RangeFinder::init(int tp, int ep, boolean d)
+void RangeFinder::init(int tp, int ep)
 {
   transmitPin = tp;
   echoPin = ep;
-  debug = d;
   pinMode(tp,OUTPUT);       // set TP output pin for trigger
   pinMode(ep,INPUT);        // set EP input pin for echo
 }

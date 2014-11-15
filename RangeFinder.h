@@ -14,9 +14,8 @@ class RangeFinder
 
   public:
 		int transmitPin, echoPin;
-		boolean debug;
     
-		void init(int tp, int ep, boolean debug);
+		void init(int tp, int ep);
 		long getDistance();
 };
 

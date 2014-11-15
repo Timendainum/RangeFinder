@@ -1,0 +1,19 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+RangeFinder			KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init		KEYWORD2
+disableBehavior		KEYWORD2
+getDistance			KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+PING_TIMEOUT			LITERAL1
